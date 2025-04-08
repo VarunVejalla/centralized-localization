@@ -1,8 +1,12 @@
 #include <stdio.h>
 
+int f(int x) {
+    return 5*x;
+}
+
 int foo(int x) {
     if (x > 0) 
-        return x * 2;
+        return f(x);
     else
         return x;
 }
