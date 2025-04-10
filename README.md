@@ -9,3 +9,8 @@ gcc -O0 -fdump-tree-cfg-graph-lineno -c quicksort.c -o /dev/null
 3. combine adjacent blocks (with no branching shenanigans) on same line?
 4. get test coverage for each line
 5. assign test coverage to blocks
+
+
+TODO: 
+- want edge coverage (not just node coverage)
+- would ideally combine program into one graph (not split across functions)
