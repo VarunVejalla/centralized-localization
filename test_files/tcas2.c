@@ -38,8 +38,7 @@ int Climb_Inhibit; /* true/false */
 #define UPWARD_RA 1
 #define DOWNWARD_RA 2
 
-main(argc, argv) int argc;
-char *argv[];
+int main( int argc, char *argv[])
 {
     int alt_sep;
     int ALIM_value; /* result of ALIM() */
